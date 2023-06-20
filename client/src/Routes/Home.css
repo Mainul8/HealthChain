@@ -1,14 +1,13 @@
 
 .abc{
-  background-color: rgb(32, 31, 31);
+  background-color: rgb(255, 255, 255);
   color:rgb(32, 32, 32);
-  padding: 40px;
   position: center;
   font-family: Arial;
   text-align: center;
 }
 
-ul {
+/*ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,11 +32,11 @@ li a {
   text-align: center;
   padding: 18px 18px;
   text-decoration:solid;
-}
+}*/
 
 
 .index{
-    color:white;
+    color:rgb(15, 15, 15);
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-display: center;
