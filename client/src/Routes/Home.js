@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from 'react-bootstrap/Navbar';
 import {
   Box,
   Container,
@@ -20,32 +21,15 @@ import logo8 from './vb3.jpg'
 const Home = () => {
     return (
         <>
-       <div className="abc">
-       
-        {/*<Navbar bg="dark" variant="dark" padding="top">
-        <Container>
-          <Navbar.Brand href="/" >HealthChain</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="/profile">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
-            
-          </Nav>
-          {/* <div className="xyz" align="center">
-            <input className="form-control mr-sm-2" type="search" placeholder="Enter a test" aria-label="Search"/>
-          </div>
-      <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> 
-      
-        </Container>
-    </Navbar>*/}
-            <ul>
-            <li><a href="/" >Healthchain</a></li>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about" >About</a></li>
-            <li><a href="/register">Signup/Login </a></li>
-            </ul>
-
+      <div className="abc">
+        <Navbar bg="dark" variant="dark">
+        <Navbar.Brand href="/" >HealthChain</Navbar.Brand>
+            <Navbar.Brand href="/profile">Home</Navbar.Brand>
+            <Navbar.Brand href="/about">About</Navbar.Brand>
+            <Navbar.Brand href="/register">SignUp/Login</Navbar.Brand>
           
-            <br/>
+        </Navbar>     
+            
             <br/>
             <h1 className="index">Welcome to HealthChain</h1>
             <br/>
@@ -63,37 +47,37 @@ const Home = () => {
           <Container>
             <Row>
               <Column>
-                <Heading>Despription</Heading>
+                <Heading style={{fontSize:"large"}}>Despription</Heading>
                 <FooterLink href="https://en.wikipedia.org/wiki/Health_system">HealthCare</FooterLink>
                 <FooterLink href="https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-blockchain">Blockchain</FooterLink>
                 <FooterLink href="https://openledger.info/insights/blockchain-healthcare-use-cases/">Use cases</FooterLink>
               </Column>
               <Column>
-                <Heading>Contact Us</Heading>
+                <Heading style={{fontSize:"large"}}>Contact Us</Heading>
                 <FooterLink href="#">Kolkata</FooterLink>
-                <FooterLink href="#">981282811</FooterLink>
-                <FooterLink href="#">917281621</FooterLink>
+                <FooterLink href="#">8116102108</FooterLink>
+                <FooterLink href="#">8961786481</FooterLink>
               </Column>
               <Column>
-                <Heading>Social Media</Heading>
+                <Heading style={{fontSize:"large"}}>Social Media</Heading>
                 <FooterLink href="#">
-                  <i className="fab fa-facebook-f">
-                      Facebook 
-                  </i>
-                </FooterLink>
-                <FooterLink href="#">
-                  <i className="fab fa-instagram">
+                  <span style={{ marginLeft: "5px" }}>
                       Instagram
-                  </i>
+                  </span>
                 </FooterLink>
-                <FooterLink href="#">
-                  <i className="fab fa-instagram">
+                <FooterLink href="https://github.com/Mainul8">
+                  <span style={{ marginLeft: "5px" }}>
                       Github
-                  </i>
+                  </span>
+                </FooterLink>
+                <FooterLink href="https://www.linkedin.com/in/rashmi-mandal-vijayvergiya-844b921b1/">
+                  <span style={{ marginLeft: "5px" }}>
+                      Rashmi Mandal
+                  </span>
                 </FooterLink>
                 </Column>
               <Column>
-                <Heading>LinkedIn</Heading>
+                <Heading style={{fontSize:"large"}}>LinkedIn</Heading>
                 <FooterLink href="https://www.linkedin.com/in/iamabhishek2000/">
                     <span style={{ marginLeft: "5px" }}>
                       Abhishek Dey
